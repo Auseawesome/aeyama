@@ -1,0 +1,24 @@
+{
+    type: "Duct",
+    category: "distribution",
+
+    speed: 0.03,
+    displayedSpeed: 4.2,
+
+    research: {
+        //Unlocked on: 1st sector
+        parent: "aeyama-block-distribution-wood-conveyor",
+        requirements: [
+            "aeyama-item-wood/25",
+            "aeyama-item-raw-iron/5"
+        ],
+        objectives: [
+            "aeyama-item-raw-iron"
+        ]
+    },
+
+    requirements: [
+        "aeyama-item-wood/1",
+        "aeyama-item-raw-iron/1"
+    ]
+}
