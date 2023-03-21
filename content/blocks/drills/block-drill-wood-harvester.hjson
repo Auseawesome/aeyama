@@ -2,21 +2,20 @@
     type: "WallCrafter",
     category: "production",
     size: 2,
+    scaledHealth: 20,
 
-    drillTime: 240,
-    output: "aeyama-item-wood",
+    drillTime: 180,
+    output: "aeyama-item-wood-lumber",
 
     research: {
         //Unlocked on: 1st sector
         parent: "aeyama-block-storage-core-drop-pod",
         requirements: [
-            "aeyama-item-wood/50",
-            "aeyama-item-stone/15"
+            "aeyama-item-wood-lumber/80"
         ]
     },
 
     requirements: [
-        "aeyama-item-wood/20",
-        "aeyama-item-stone/5"
+        "aeyama-item-wood-lumber/20"
     ]
 }
